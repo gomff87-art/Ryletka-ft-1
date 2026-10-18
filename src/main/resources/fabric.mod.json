@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ryletka",
+  "version": "1.0.0",
+  "name": "Ryletka",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ryletka.RyletkaMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
