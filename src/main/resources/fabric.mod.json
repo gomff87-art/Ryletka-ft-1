@@ -8,9 +8,9 @@
     "client": ["ryletka.RyletkaMod"]
   },
   "depends": {
-    "fabricloader": ">=0.18.0",
+    "fabricloader": ">=0.16.0",
     "fabric-api": "*",
-    "minecraft": "~1.21.11",
+    "minecraft": "~1.21.4",
     "java": ">=21"
   }
 }
