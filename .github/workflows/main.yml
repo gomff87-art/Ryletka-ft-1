@@ -16,5 +16,5 @@ jobs:
       - run: cp build/libs/ryletka-1.0.0.jar ryletka.jar
       - uses: actions/upload-artifact@v4
         with:
-          name: ryletka
+          name: ryletka-${{ github.ref_name }}
           path: ryletka.jar
